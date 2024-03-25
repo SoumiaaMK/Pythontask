@@ -1,10 +1,8 @@
 import pandas as pd
 import json
 
-# Define grade points dictionary
 grade_points = {'O': 10, 'A+': 9, 'A': 8, 'B+': 7, 'B': 6, 'C': 5, 'RA': 0, 'SA': 0, 'W': 0}
 
-# Prompt the user to input the filenames separated by commas
 filenames = input("Enter the filenames of the CSV files (separated by commas): ").split(',')
 output = {}
 
